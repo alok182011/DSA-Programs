@@ -1,0 +1,3 @@
+# hack
+For Hacktoberfest
+create a file related to data structure programs code and add......
