@@ -1,0 +1,55 @@
+begin procedure peek
+   return queue[front]
+end procedure
+
+----------------------------------
+
+begin procedure isfull
+
+   if rear equals to MAXSIZE
+      return true
+   else
+      return false
+   endif
+   
+end procedure
+
+-----------------------------------
+
+begin procedure isempty
+
+   if front is less than MIN  OR front is greater than rear
+      return true
+   else
+      return false
+   endif
+   
+end procedure
+
+-----------------------------------
+
+procedure enqueue(data)      
+   
+   if queue is full
+      return overflow
+   endif
+   
+   rear ← rear + 1
+   queue[rear] ← data
+   return true
+   
+end procedure
+
+------------------------------------
+
+procedure dequeue
+   
+   if queue is empty
+      return underflow
+   end if
+
+   data = queue[front]
+   front ← front + 1
+   return true
+
+end procedure
