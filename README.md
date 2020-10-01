@@ -1,4 +1,7 @@
 # hack
+
+## A repo to collect different concepts regarding programming to help students.
+
 Hacktoberfest 2020 is here and you too can win prizes.
 
 <img alt="HF2020" src="https://user-images.githubusercontent.com/43699825/91566556-7e66fe80-e961-11ea-97d4-0195c6b479ba.png">
